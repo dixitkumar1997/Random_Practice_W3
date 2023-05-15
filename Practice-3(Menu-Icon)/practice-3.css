@@ -1,0 +1,13 @@
+.bar{
+    width: 35px;
+    height: 8px;
+    border-bottom: 4px solid black;
+    cursor: pointer;
+}
+#content{
+    width: 150px;
+    height: 200px;
+    background-color: green;
+    margin-top: 2px;
+    display: none;
+}

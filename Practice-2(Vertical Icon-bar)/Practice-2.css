@@ -1,0 +1,31 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#Icon_bar{
+    width: 100px;
+    height: fit-content;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+a{
+    width: 100%;
+    height: 100%;
+}
+.fa-solid{
+    width: 100%;
+    font-size: 40px;
+    height: 90px;
+    color: white;
+    padding-top: 40px
+}
+.fa-house-chimney{
+    background-color: #04AA6D;;
+}
+.hover-icon:hover{
+background-color: black;
+transition: 0.5s;
+}
