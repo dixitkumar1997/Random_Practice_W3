@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice-6</title>
+    <link rel="stylesheet" href="Practice-6.css">
+</head>
+<body>
+    <div id="main">
+        <div id="btn">
+            <button id="London" onclick="show(London,Paris,Tokyo,content1,content2,content3)">London</button>
+            <button id="Paris" onclick="show(Paris,London,Tokyo,content2,content1,content3)">Paris</button>
+            <button id="Tokyo" onclick="show(Tokyo,Paris,London,content3,content1,content2)">Tokyo</button>
+        </div>
+        <div class="content" id="content1">
+            <h2>London</h2>
+            <p>London is the capital city of England.</p>
+        </div>
+        <div class="content" id="content2">
+            <h2>Paris</h2>
+            <p>Paris is the capital city of France.</p>
+        </div>
+        <div class="content" id="content3">
+            <h2>Tokyo</h2>
+            <p>Tokyo is the capital city of Japan.</p>
+        </div>
+
+    </div>
+    <script src="Practice-6.js"></script>
+</body>
+</html>

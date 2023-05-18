@@ -1,0 +1,35 @@
+#main{
+    width: 70%;
+    height: 180px;
+    margin: auto;
+    border: 1px solid gray;
+}
+#btn{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    justify-content: flex-start;
+}
+#btn button{
+    width: 90px;
+    height: 100%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0px;
+    background-color: gray;
+}
+button:hover{
+    background-color: #ddd;
+}
+.content{
+    padding-left: 15px;
+    display: none;
+}
+.content h2{
+    font-size: 25px;
+}
+.content p{
+    font-size: 18px;
+}
