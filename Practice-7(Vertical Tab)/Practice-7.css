@@ -1,0 +1,33 @@
+#main{
+    width: 70%;
+    margin: auto;
+    height: 350px;
+    border: 1px solid gray;
+    display: flex;
+}
+#btn{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ccc;
+}
+#btn button{
+    background-color: #ccc;
+    font-size: 22px;
+    border: none;
+    height: 60px;
+    text-align: start;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#btn button:hover{
+    background-color: rgb(163, 159, 159);
+}
+#right .content{
+    display: none;
+    padding-left: 20px;
+}
+#right .content p{
+    font-size: 18px;
+}
