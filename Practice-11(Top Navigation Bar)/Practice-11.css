@@ -1,0 +1,25 @@
+#navbar{
+    width: 70%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    background-color: black;
+}
+#navbar button{
+    border: none;
+    color: white;
+    width: 10%;
+    background-color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+#navbar #diffColor{
+    background-color: rgb(115, 196, 115);
+}
+#navbar button:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#navbar #diffColor:hover{
+    color: white;
+}
